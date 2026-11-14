@@ -49,7 +49,7 @@ error_class TEXT, artifact TEXT, notes TEXT, constraint_fail INTEGER DEFAULT 0
 
 ## Step 2 — Fixed eval suite
 
-Put checks in `state/evals/tasks.json`. Each has an `id`, `name`, `kind` (`file_exists` or `command`), and either `path` or `cmd` with optional `expect_contains`.
+Create `state/evals/tasks.json` yourself (this skill does not ship it), then put checks in it. Each has an `id`, `name`, `kind` (`file_exists` or `command`), and either `path` or `cmd` with optional `expect_contains`.
 
 Rules:
 - Mix kinds; a suite of only file checks measures installation, not behaviour.
