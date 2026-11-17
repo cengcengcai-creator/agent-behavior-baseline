@@ -1,3 +1,5 @@
+> Part of [Agent Governance Skills](https://github.com/cengcengcai-creator/openclaw-agent-governance) - five skills that make agent rules actually hold.
+
 # agent-behavior-baseline
 
 An AgentSkill for answering “did the agent get better?” with data instead of impression.
